@@ -1,16 +1,20 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
+import { defineConfig } from "eslint/config";
+import nextPlugin from "eslint-config-next";
 
-const eslintConfig = defineConfig([
-  ...nextVitals,
-  // Override default ignores of eslint-config-next.
-  globalIgnores([
-    // Default ignores of eslint-config-next:
-    ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
-  ]),
+export default defineConfig([
+  ...nextPlugin,
+  {
+    ignores: [
+      ".next/**",
+      "out/**",
+      "build/**",
+      "next-env.d.ts",
+
+      // ملفات نُستثنيها من التحذيرات
+      "tailwind.config.js",
+      "postcss.config.mjs",
+      "next.config.mjs",
+      "eslint.config.mjs"
+    ],
+  },
 ]);
-
-export default eslintConfig;
