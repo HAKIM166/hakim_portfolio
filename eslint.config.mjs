@@ -9,12 +9,16 @@ export default defineConfig([
       "out/**",
       "build/**",
       "next-env.d.ts",
-
-      // ملفات نُستثنيها من التحذيرات
       "tailwind.config.js",
       "postcss.config.mjs",
       "next.config.mjs",
-      "eslint.config.mjs"
+      "eslint.config.mjs",
     ],
+    rules: {
+      "react/no-unescaped-entities": "off",
+      "@typescript-eslint/quotes": "off",
+      "quotes": "off",
+      "no-useless-escape": "off",
+    },
   },
 ]);
