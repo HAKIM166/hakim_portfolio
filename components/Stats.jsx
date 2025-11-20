@@ -4,43 +4,51 @@ import CountUp from "react-countup";
 
 const stats = [
   {
-    num: 12,
-    text: "Years of experience",
+    num: 1.5,
+    decimals: 1,
+    text: "Years of focused learning",
   },
   {
-    num: 26,
-    text: "Projects completed",
+    num: 5,
+    decimals: 0,
+    text: "Major projects built",
   },
   {
     num: 8,
-    text: "Technologies mastered",
+    decimals: 0,
+    text: "Core technologies used",
   },
   {
-    num: 500,
-    text: "Code commits",
+    num: 3,
+    decimals: 0,
+    text: "API-driven projects",
   },
 ];
+
 export default function Stats() {
   return (
-    <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
+    <section className="pt-8 pb-12 xl:pt-10 xl:pb-16">
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
-          {stats.map((item, index) => {
-            return (
-              <div 
-              className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
-              key={index}>
+        <div className="grid grid-cols-2 gap-4 md:gap-6 md:grid-cols-4 max-w-[1200px] mx-auto">
+          {stats.map((item, index) => (
+            <div
+              key={index}
+              className="relative flex flex-col items-center justify-center  border border-white/10 px-4 py-4 md:py-6 backdrop-blur-sm shadow-sm hover:border-accent hover:shadow-[0_0_25px_rgba(56,189,248,0.4)] transition-all duration-300"
+            >
+              <span className="text-3xl md:text-4xl font-extrabold text-accent">
                 <CountUp
                   end={item.num}
-                  duration={5}
-                  delay={2}
-                  className="text-4xl xl:text-6xl font-extrabold"
+                  decimals={item.decimals ?? 0}
+                  duration={2.5}
+                  delay={1}
                 />
-                <p className={`${item.text.length <15 ? "max-w-[100px]":"max-w-[150px]"
-                    } leading-snug text-white/80`}>{item.text}</p>
-              </div>
-            );
-          })}
+              </span>
+
+              <p className="mt-2 text-center text-xs md:text-sm text-white/80 leading-snug">
+                {item.text}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

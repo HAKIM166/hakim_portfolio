@@ -16,162 +16,151 @@ import {
   FaJs,
   FaReact,
   FaFigma,
-  FaNodeJs,
+  FaGitAlt,
+  FaGithub,
+  FaCode,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiBootstrap,
+} from "react-icons/si";
 
-// about data
+/* ABOUT DATA */
 const about = {
   title: "About me",
-  description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta repellat 
-   facilis voluptatem quis magnam velit atque obcaecati ea non. Voluptatibus.`,
+  description: `I'm Ahmed Abd Ul Hakim Amir, a self-taught junior front-end developer from Assiut, Egypt. 
+Over the last ~1.5 years I've focused on building real projects with React, Next.js and modern CSS, 
+moving from a law background into web development. I care about clean code, reusable components 
+and responsive, user-friendly interfaces.`,
   info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Ahmed Hakim",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "+201092510794",
-    },
+    { fieldName: "Name", fieldValue: "Ahmed Abd Ul Hakim Amir" },
+    { fieldName: "Role", fieldValue: "Front-End Developer (Junior)" },
+    { fieldName: "Location", fieldValue: "Manfalut, Assiut, Egypt" },
     {
       fieldName: "Experience",
-      fieldValue: "1+ Year",
+      fieldValue: "≈1.5 years (self-learning & projects)",
     },
+    { fieldName: "Email", fieldValue: "ahmed.hakem2@yahoo.com" },
+    { fieldName: "Phone", fieldValue: "+20 109 251 0794" },
+    { fieldName: "GitHub", fieldValue: "github.com/HAKIM166" },
     {
-      fieldName: "Skype",
-      fieldValue: "Ahmed.01",
+      fieldName: "LinkedIn",
+      fieldValue: "linkedin.com/in/ahmed-hakem-34b3b3350",
     },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Egypt",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "Ahmed.Hakem2@yahoo.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "English B1, Arabic",
-    },
+    { fieldName: "Languages", fieldValue: "Arabic (native), English (B1)" },
   ],
 };
 
-// experience data
+/* EXPERIENCE DATA */
 const experience = {
-  icon: "/assets/resume/badge.svg",
-  title: "My experience",
-  description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta repellat 
-   facilis voluptatem quis magnam velit atque obcaecati ea non. Voluptatibus.`,
+  title: "Experience",
+  description: `I'm a self-taught front-end developer. My experience comes from building real projects, 
+completing a full-stack program and practicing modern front-end workflows with React and Next.js.`,
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Front-end Developer",
-      duration: "2022 -present",
+      company: "Self-Learning & Personal Projects",
+      position: "Front-End Developer (Practice & Portfolio)",
+      duration: "2023 – Present",
     },
     {
-      company: "Web Design Studio.",
-      position: "Front-end Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Development",
-      duration: "2017 - 2018",
+      company: "CLS Learning Solution – Online",
+      position: "Full-Stack Web Development Trainee (190 hours)",
+      duration: "Feb 2025 – May 2025",
     },
   ],
 };
 
-// education data
+/* EDUCATION DATA */
 const education = {
-  icon: "/assets/resume/cap.svg",
-  title: "My education",
-  description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta repellat 
-   facilis voluptatem quis magnam velit atque obcaecati ea non. Voluptatibus.`,
+  title: "Education",
+  description: `My formal education is in law, and my technical skills come from intensive online training 
+and structured self-learning in front-end and full-stack web development.`,
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2025",
+      institution: "CLS Learning Solution – Online",
+      degree: "Full-Stack Web Development Program (190 hours)",
+      duration: "Feb 2025 – May 2025",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2024",
+      institution: "Assiut University – Faculty of Law",
+      degree: "Bachelor of Law (LL.B.) – Grade: Good",
+      duration: "2021 – 2025",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2022 - 2023",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "certified Web Developer",
-      duration: "2021",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2018 - 2020",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Online platforms (YouTube, Coursera, etc.)",
+      degree: "Front-End & JavaScript Self-Learning",
+      duration: "2023 – Present",
     },
   ],
 };
-// skills data
+
+/* SKILLS DATA */
 const skills = {
   title: "My skills",
-  description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta repellat 
-   facilis voluptatem quis magnam velit atque obcaecati ea non. Voluptatibus.`,
+  description: `I focus on modern front-end development: React, Next.js, TypeScript and Tailwind CSS, 
+with a strong focus on clean code, component reuse and responsive design.`,
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML5",
+      hoverClass: "group-hover:text-[#E34F26]",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "CSS3",
+      hoverClass: "group-hover:text-[#1572B6]",
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "JavaScript (ES6+)",
+      hoverClass: "group-hover:text-[#F7DF1E]",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "TypeScript",
+      hoverClass: "group-hover:text-[#3178C6]",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
+      hoverClass: "group-hover:text-[#61DBFB]",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js",
+      name: "Next.js",
+      hoverClass: "group-hover:text-white",
     },
     {
       icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      name: "Tailwind CSS",
+      hoverClass: "group-hover:text-[#38BDF8]",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiBootstrap />,
+      name: "Bootstrap",
+      hoverClass: "group-hover:text-[#7952B3]",
+    },
+    {
+      icon: <FaGitAlt />,
+      name: "Git",
+      hoverClass: "group-hover:text-[#F05032]",
+    },
+    {
+      icon: <FaGithub />,
+      name: "GitHub",
+      hoverClass: "group-hover:text-[#F5F5F5]",
+    },
+    {
+      icon: <FaCode />,
+      name: "VS Code",
+      hoverClass: "group-hover:text-[#22A6F2]",
     },
     {
       icon: <FaFigma />,
-      name: "figma",
+      name: "Figma",
+      hoverClass: "group-hover:text-[#F24E1E]",
     },
   ],
 };
@@ -191,19 +180,17 @@ export default function Resume() {
           defaultValue="experience"
           className="flex flex-col xl:flex-row gap-[60px]"
         >
-          <TabsList
-            className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0
-          gap-6"
-          >
+          {/* Tabs List */}
+          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-4">
             <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Eduction</TabsTrigger>
+            <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="about">About me</TabsTrigger>
           </TabsList>
 
-          {/* content */}
+          {/* Content */}
           <div className="min-h-[70vh] w-full">
-            {/* experience */}
+            {/* EXPERIENCE */}
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
@@ -211,33 +198,35 @@ export default function Resume() {
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    {experience.items.map((item, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="bg-[#232329] h-[184px] 
-                      py-6 px-10 rounded-xl flex flex-col justify-center items-center
-                      lg:items-start gap-1"
-                        >
-                          <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.position}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.company}</p>
-                          </div>
-                        </li>
-                      );
-                    })}
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[24px]">
+                    {experience.items.map((item, index) => (
+                      <li
+                        key={index}
+                        className="bg-[#14141b] border border-white/5 h-[180px] 
+                        py-6 px-8 rounded-xl flex flex-col justify-center items-center
+                        lg:items-start gap-2 hover:border-accent/70 hover:bg-[#181824]
+                        transition-colors duration-300"
+                      >
+                        <span className="text-accent text-sm font-medium">
+                          {item.duration}
+                        </span>
+                        <h3 className="text-lg font-semibold max-w-[260px] min-h-[52px] text-center lg:text-left">
+                          {item.position}
+                        </h3>
+                        <div className="flex items-center gap-3">
+                          <span className="w-[6px] h-[6px] rounded-full bg-accent" />
+                          <p className="text-white/60 text-sm">
+                            {item.company}
+                          </p>
+                        </div>
+                      </li>
+                    ))}
                   </ul>
                 </ScrollArea>
               </div>
             </TabsContent>
 
-            {/* education */}
+            {/* EDUCATION */}
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
@@ -245,71 +234,102 @@ export default function Resume() {
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    {education.items.map((item, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="bg-[#232329] h-[184px] 
-                      py-6 px-10 rounded-xl flex flex-col justify-center items-center
-                      lg:items-start gap-1"
-                        >
-                          <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.degree}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.institution}</p>
-                          </div>
-                        </li>
-                      );
-                    })}
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[24px]">
+                    {education.items.map((item, index) => (
+                      <li
+                        key={index}
+                        className="bg-[#14141b] border border-white/5 h-[180px] 
+                        py-6 px-8 rounded-xl flex flex-col justify-center items-center
+                        lg:items-start gap-2 hover:border-accent/70 hover:bg-[#181824]
+                        transition-colors duration-300"
+                      >
+                        <span className="text-accent text-sm font-medium">
+                          {item.duration}
+                        </span>
+                        <h3 className="text-lg font-semibold max-w-[260px] min-h-[52px] text-center lg:text-left">
+                          {item.degree}
+                        </h3>
+                        <div className="flex items-center gap-3">
+                          <span className="w-[6px] h-[6px] rounded-full bg-accent" />
+                          <p className="text-white/60 text-sm">
+                            {item.institution}
+                          </p>
+                        </div>
+                      </li>
+                    ))}
                   </ul>
                 </ScrollArea>
               </div>
             </TabsContent>
 
-            {/* skills */}
+            {/* SKILLS */}
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <div className="flex flex-col gap-[16px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                    {skills.description}
+                  </p>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px] gap-4">
-                  {skills.skillList.map((skill,index)=>{
-                    return <li key={index}>
-                      <TooltipProvider delayDuration={100}>
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[24px]">
+                  {skills.skillList.map((skill, index) => (
+                    <li key={index}>
+                      <TooltipProvider delayDuration={80}>
                         <Tooltip>
-                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-lg flex justify-center items-center group">
-                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
+                          <TooltipTrigger
+                            className="w-full h-[130px] bg-[#151521] rounded-xl 
+                              flex flex-col justify-center items-center gap-3 
+                              border border-white/5 group
+                              hover:border-accent/70 hover:bg-[#1f2937]
+                              transition-all duration-300"
+                          >
+                            <div
+                              className={`text-4xl md:text-5xl text-white/70 transition-all duration-300 ${skill.hoverClass}`}
+                            >
+                              {skill.icon}
+                            </div>
+                            <p className="capitalize text-xs text-white/60 group-hover:text-white/90 transition-colors duration-300">
+                              {skill.name}
+                            </p>
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="capitalize">{skill.name}</p>
+                            <p className="capitalize text-xs">{skill.name}</p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
                     </li>
-                  })}
+                  ))}
                 </ul>
               </div>
             </TabsContent>
 
-            {/* about me */}
-            <TabsContent value="about" className="w-full text-center xl:text-left">
+            {/* ABOUT ME */}
+            <TabsContent
+              value="about"
+              className="w-full text-center xl:text-left"
+            >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]
-                mx-auto xl:mx-0">
-                  {about.info.map((item,index)=>{
-                    return <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
-                      <span className="text-white/60">{item.fieldName}</span>
-                      <span className="text-xl">{item.fieldValue}</span>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 whitespace-pre-line">
+                  {about.description}
+                </p>
+                <ul
+                  className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]
+                mx-auto xl:mx-0"
+                >
+                  {about.info.map((item, index) => (
+                    <li
+                      key={index}
+                      className="flex items-center justify-center xl:justify-start gap-4"
+                    >
+                      <span className="text-white/60 text-sm">
+                        {item.fieldName}
+                      </span>
+                      <span className="text-base md:text-lg">
+                        {item.fieldValue}
+                      </span>
                     </li>
-                  })}
+                  ))}
                 </ul>
               </div>
             </TabsContent>
