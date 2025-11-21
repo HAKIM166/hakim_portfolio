@@ -23,7 +23,7 @@ export default function Photo() {
 
         {/* Photo */}
         <div className="relative z-0 flex h-[270px] md:h-[310px] lg:h-80 xl:h-96 w-full items-center justify-center">
-          <div className="relative h-full w-[70%] md:w-[75%] lg:w-[80%] overflow-hidden rounded-[2rem]">
+          <div className="relative h-full w-[70%] md:w-[75%] lg:w-[80%] overflow-hidden rounded-[100px]">
             <Image
               src="/assets/photo14.png"
               alt="Ahmed Hakim profile photo"
