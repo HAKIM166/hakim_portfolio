@@ -12,7 +12,6 @@ export default function Photo() {
         transition={{ delay: 1.4, duration: 0.5, ease: "easeOut" }}
         className="relative w-[300px] h-[300px] md:w-[340px] md:h-[340px] xl:w-[400px] xl:h-[400px]"
       >
-        {/* إطار مربع مائل */}
         <motion.div
           className="absolute inset-[6%] rounded-[2rem] border border-accent/50"
           initial={{ rotate: -8 }}
@@ -20,19 +19,18 @@ export default function Photo() {
           transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
         />
 
-        {/* Glow داخلي ناعم */}
         <div className="absolute inset-[16%] rounded-[2rem] bg-gradient-to-tr from-accent/30 via-transparent to-sky-500/15 blur-xl" />
 
-        {/* الصورة – دايرة مكبّرة */}
-        <div className="relative z-10 flex h-full w-full items-center justify-center mix-blend-lighten">
-          <div className="relative h-[80%] w-[80%] rounded-[120px] rou overflow-hidden bg-[#020617] shadow-lg shadow-black/50">
+        {/* Photo */}
+        <div className="relative z-0 flex h-[270px] md:h-[310px] lg:h-80 xl:h-96 w-full items-center justify-center">
+          <div className="relative h-full w-[70%] md:w-[75%] lg:w-[80%] overflow-hidden rounded-[2rem]">
             <Image
-              src="/assets/photo11.png"
+              src="/assets/photo14.png"
               alt="Ahmed Hakim profile photo"
               fill
               priority
               sizes="(max-width: 768px) 240px, (max-width: 1280px) 272px, 320px"
-              className="object-contain"
+              className="object-cover scale-100 md:scale-105 lg:scale-110 -translate-y-1"
             />
           </div>
         </div>
