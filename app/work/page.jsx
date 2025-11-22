@@ -56,14 +56,16 @@ const projects = [
   {
     num: "03",
     category: "frontend",
-    title: "E-commerce Website",
+    title: "E-commerce Front-End – Abaya & Thobe Store",
     description:
-      "Multi-page e-commerce front-end with hero banner, product grid and category sections, focusing on clean layout and responsive design.",
+      "A multi-page e-commerce front-end for a modern Abaya & Thobe store. The project includes a hero slider, product grid, offer section with countdown, and responsive layout optimized for mobile and desktop.",
     stack: [
       { name: "HTML 5" },
       { name: "CSS 3" },
-      { name: "JavaScript" },
+      { name: "JavaScript (ES6+)" },
       { name: "Responsive Design" },
+      { name: "Swiper.js (Hero Slider)" },
+      { name: "LocalStorage (Cart & Wishlist)" },
     ],
     image: "/assets/work/thumb4.png",
     live: "https://hakim166.github.io/e-commarce_website/",
