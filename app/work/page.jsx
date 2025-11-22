@@ -72,11 +72,9 @@ const projects = [
 ];
 
 export default function Work() {
-  // بدل ما نخزن object كامل، نخزن index بس
   const [activeIndex, setActiveIndex] = useState(0);
   const project = projects[activeIndex];
 
-  // useCallback عشان ما نعملش re-create للـ function على كل رندر
   const handleSlideChange = useCallback((swiper) => {
     setActiveIndex(swiper.activeIndex);
   }, []);

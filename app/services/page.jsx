@@ -50,7 +50,7 @@ export default function Services() {
       }}
     >
       <div className="container mx-auto">
-        {/* العنوان */}
+
         <div className="mb-10 max-w-xl">
           <p className="text-sm uppercase tracking-[0.3em] text-accent/70 mb-2">
             Services
@@ -65,7 +65,7 @@ export default function Services() {
           </p>
         </div>
 
-        {/* الكروت */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-10">
           {services.map((service) => (
             <div
