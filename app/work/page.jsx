@@ -65,7 +65,7 @@ const projects = [
       { name: "JavaScript" },
       { name: "Responsive Design" },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb4.png",
     live: "https://hakim166.github.io/e-commarce_website/",
     github: "https://github.com/HAKIM166/e-commarce_website",
   },
