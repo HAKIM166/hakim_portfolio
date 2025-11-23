@@ -49,7 +49,7 @@ const projects = [
       { name: "CSS 3" },
       { name: "JavaScript ES6" },
     ],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb6.png",
     live: "https://hakim166.github.io/Dashboard/",
     github: "https://github.com/HAKIM166/Dashboard",
   },

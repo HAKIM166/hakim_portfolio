@@ -21,10 +21,7 @@ module.exports = {
 
     extend: {
       colors: {
-        // لون الخلفية الأساسية للصفحة
-        background: "#1c1c22",     // غامق أزرق تقريبًا زي الفيديو
-
-        // لون الـ primary اللي بيتستخدم للـ Button و العناصر المهمة
+        background: "#1c1c22",    
         primary: "#020617",
 
         accent: {
