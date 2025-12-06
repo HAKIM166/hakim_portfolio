@@ -22,39 +22,27 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "Mawaqeet Al-Muslim",
+    category: "Fullstack / Frontend + API",
+    title: "Bzeyada Restaurant Platform",
     description:
-      "Prayer times web app inspired by Mawaqit, with Arabic UI, next prayer countdown and dynamic data loaded from an external API.",
+      "A full online ordering platform built for a real restaurant client in Saudi Arabia. Includes dynamic menu management, customizable addons, cart system with unique logic, order creation, real-time tracking, user authentication with OTP, profile settings, and interactive map location selection — all powered by Next.js, MongoDB, and a custom API.",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "JavaScript" },
-      { name: "React" },
-      { name: "REST API" },
+    { name: "Next.js 14" },
+    { name: "React" },
+    { name: "TailwindCSS" },
+    { name: "Framer Motion" },
+    { name: "MongoDB" },
+    { name: "Mongoose" },
+    { name: "Leaflet Maps" },
+    { name: "Context API" },
+    { name: "REST API" }
     ],
-    image: "/assets/work/thumb1.png",
-    live: "https://hakim166.github.io/Mawaqit/",
-    github: "https://github.com/HAKIM166/Mawaqit",
+    image: "/assets/work/thumb20.png",
+    live: "https://bzeyada-restaurant-three.vercel.app/",
+    github: null,
   },
   {
     num: "02",
-    category: "frontend",
-    title: "Analytics Dashboard (React)",
-    description:
-      "Single-page analytics dashboard built with React and React Router, featuring statistic cards, tables and navigation between sections.",
-    stack: [
-      { name: "React" },
-      { name: "React Router" },
-      { name: "CSS 3" },
-      { name: "JavaScript ES6" },
-    ],
-    image: "/assets/work/thumb6.png",
-    live: "https://hakim166.github.io/Dashboard/",
-    github: "https://github.com/HAKIM166/Dashboard",
-  },
-  {
-    num: "03",
     category: "frontend",
     title: "E-commerce Front-End – Abaya & Thobe Store",
     description:
@@ -71,6 +59,40 @@ const projects = [
     live: "https://hakim166.github.io/e-commarce_website/",
     github: "https://github.com/HAKIM166/e-commarce_website",
   },
+  {
+    num: "03",
+    category: "frontend",
+    title: "Analytics Dashboard (React)",
+    description:
+      "Single-page analytics dashboard built with React and React Router, featuring statistic cards, tables and navigation between sections.",
+    stack: [
+      { name: "React" },
+      { name: "React Router" },
+      { name: "CSS 3" },
+      { name: "JavaScript ES6" },
+    ],
+    image: "/assets/work/thumb6.png",
+    live: "https://hakim166.github.io/Dashboard/",
+    github: "https://github.com/HAKIM166/Dashboard",
+  },
+    {
+    num: "04",
+    category: "frontend",
+    title: "Mawaqeet Al-Muslim",
+    description:
+      "Prayer times web app inspired by Mawaqit, with Arabic UI, next prayer countdown and dynamic data loaded from an external API.",
+    stack: [
+      { name: "HTML 5" },
+      { name: "CSS 3" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "REST API" },
+    ],
+    image: "/assets/work/thumb1.png",
+    live: "https://hakim166.github.io/Mawaqit/",
+    github: "https://github.com/HAKIM166/Mawaqit",
+  },
+  
 ];
 
 export default function Work() {
