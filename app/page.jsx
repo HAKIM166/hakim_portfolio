@@ -36,7 +36,7 @@ export default function Home() {
                   className="flex items-center gap-2 rounded-lg bg-accent px-6 py-4 text-sm font-semibold text-primary 
                hover:bg-accent/90 transition-colors duration-200"
                 >
-                  <a href="/assets/Ahmed_Hakim_Frontend_CV.pdf" download>
+                  <a href="/assets/Hakim_CV.pdf" download>
                     <FiDownload className="text-lg" />
                     <span>Download CV</span>
                   </a>
