@@ -15,27 +15,27 @@ const services = [
   },
   {
     num: "02",
-    title: "Responsive UI & Styling",
+    title: "SaaS Dashboards & Web Apps",
     description:
-      "Creating pixel-perfect layouts with Tailwind CSS, modern CSS tools and mobile-first design so your website looks great on every screen.",
-    href: "/work",
-    tag: "UI / Responsive",
-  },
-  {
-    num: "03",
-    title: "Dashboards & Web Apps",
-    description:
-      "Developing multi-page dashboards and utility apps with React Router, API integration and organized components for maintainable code.",
+      "Developing dashboard-style applications with protected routes, reusable UI sections, state management, API integration and organized frontend architecture.",
     href: "/work",
     tag: "Dashboards",
   },
   {
-    num: "04",
-    title: "Landing Pages & Portfolios",
+    num: "03",
+    title: "Responsive UI & Localization",
     description:
-      "Designing and building fast, clean landing pages and personal portfolios that highlight your brand and convert visitors into clients.",
+      "Creating clean responsive layouts with Tailwind CSS, mobile-first structure, Arabic/English localization, RTL support and dark/light theme-ready interfaces.",
     href: "/work",
-    tag: "Landing / Portfolio",
+    tag: "UI / Responsive",
+  },
+  {
+    num: "04",
+    title: "Restaurant Menus & Landing Pages",
+    description:
+      "Designing and building fast, clean landing pages, QR restaurant menus and portfolio websites focused on practical user experience and clear presentation.",
+    href: "/work",
+    tag: "Websites",
   },
 ];
 
@@ -50,7 +50,6 @@ export default function Services() {
       }}
     >
       <div className="container mx-auto">
-
         <div className="mb-10 max-w-xl">
           <p className="text-sm uppercase tracking-[0.3em] text-accent/70 mb-2">
             Services
@@ -59,12 +58,11 @@ export default function Services() {
             What I can build for you
           </h1>
           <p className="text-white/60 text-sm md:text-base">
-            As a self-taught Front-End Developer, I focus on clean code,
-            reusable components and responsive layouts using React, Next.js and
-            modern CSS tools.
+            As a Front-End Developer, I focus on clean code, reusable
+            components, responsive layouts and practical web applications using
+            React, Next.js, TypeScript and modern CSS tools.
           </p>
         </div>
-
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-10">
           {services.map((service) => (

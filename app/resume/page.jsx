@@ -25,15 +25,18 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiBootstrap,
+  SiSupabase,
+  SiVercel,
 } from "react-icons/si";
 
 /* ABOUT DATA */
 const about = {
   title: "About me",
-  description: `I'm Ahmed Abd Ul Hakim Amir, a self-taught junior front-end developer from Assiut, Egypt. 
-Over the last ~1.5 years I've focused on building real projects with React, Next.js and modern CSS, 
-moving from a law background into web development. I care about clean code, reusable components 
-and responsive, user-friendly interfaces.`,
+  description: `I'm Ahmed Abd Ul Hakim Amir, a self-taught junior front-end developer from Assiut, Egypt.
+
+Over the last ~1.5 years, I've focused on building real projects with React, Next.js, TypeScript and modern CSS. My recent work includes SaaS dashboards, restaurant web apps, authentication flows, responsive interfaces and localized Arabic/English UI.
+
+I care about clean code, reusable components, realistic user experience and building interfaces that feel practical, organized and easy to use.`,
   info: [
     { fieldName: "Name", fieldValue: "Ahmed Abd Ul Hakim Amir" },
     { fieldName: "Role", fieldValue: "Front-End Developer (Junior)" },
@@ -56,13 +59,22 @@ and responsive, user-friendly interfaces.`,
 /* EXPERIENCE DATA */
 const experience = {
   title: "Experience",
-  description: `I'm a self-taught front-end developer. My experience comes from building real projects, 
-completing a full-stack program and practicing modern front-end workflows with React and Next.js.`,
+  description: `I'm a self-taught front-end developer focused on building real-world web applications with React, Next.js, TypeScript and modern UI systems. My experience comes from portfolio projects, client-style applications and continuous practical learning.`,
   items: [
     {
-      company: "Self-Learning & Personal Projects",
-      position: "Front-End Developer (Practice & Portfolio)",
-      duration: "2023 – Present",
+      company: "NexusDesk – Portfolio SaaS Project",
+      position: "Front-End Developer / Next.js Dashboard Builder",
+      duration: "2026",
+    },
+    {
+      company: "Bashamelo Menu – Restaurant QR Menu",
+      position: "Front-End Developer / Mobile-First Web App",
+      duration: "2026",
+    },
+    {
+      company: "Bzeyada Restaurant Platform",
+      position: "Fullstack / Frontend + API Project",
+      duration: "2025",
     },
     {
       company: "CLS Learning Solution – Online",
@@ -75,8 +87,7 @@ completing a full-stack program and practicing modern front-end workflows with R
 /* EDUCATION DATA */
 const education = {
   title: "Education",
-  description: `My formal education is in law, and my technical skills come from intensive online training 
-and structured self-learning in front-end and full-stack web development.`,
+  description: `My formal education is in law, and my technical skills come from intensive online training, practical projects and structured self-learning in front-end and full-stack web development.`,
   items: [
     {
       institution: "CLS Learning Solution – Online",
@@ -90,7 +101,7 @@ and structured self-learning in front-end and full-stack web development.`,
     },
     {
       institution: "Online platforms (YouTube, Coursera, etc.)",
-      degree: "Front-End & JavaScript Self-Learning",
+      degree: "Front-End, React, Next.js & JavaScript Self-Learning",
       duration: "2023 – Present",
     },
   ],
@@ -99,8 +110,7 @@ and structured self-learning in front-end and full-stack web development.`,
 /* SKILLS DATA */
 const skills = {
   title: "My skills",
-  description: `I focus on modern front-end development: React, Next.js, TypeScript and Tailwind CSS, 
-with a strong focus on clean code, component reuse and responsive design.`,
+  description: `I focus on modern front-end development with React, Next.js, TypeScript and Tailwind CSS, with practical experience in responsive dashboards, localization, authentication flows, state management and clean reusable components.`,
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -135,6 +145,26 @@ with a strong focus on clean code, component reuse and responsive design.`,
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
+      hoverClass: "group-hover:text-[#38BDF8]",
+    },
+    {
+      icon: <SiSupabase />,
+      name: "Supabase",
+      hoverClass: "group-hover:text-[#3ECF8E]",
+    },
+    {
+      icon: <FaCode />,
+      name: "Zustand",
+      hoverClass: "group-hover:text-[#F5F5F5]",
+    },
+    {
+      icon: <SiVercel />,
+      name: "Vercel",
+      hoverClass: "group-hover:text-white",
+    },
+    {
+      icon: <FaCode />,
+      name: "REST API",
       hoverClass: "group-hover:text-[#38BDF8]",
     },
     {

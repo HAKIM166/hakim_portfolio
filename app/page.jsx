@@ -18,11 +18,10 @@ export default function Home() {
               hello I’m <br /> <span className="text-accent">Ahmed Hakim</span>{" "}
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I’m a self-taught junior front-end developer with about 1.5 years
-              of focused learning. I build modern interfaces with HTML, CSS,
-              JavaScript/TypeScript and React.js/Next.js, focusing on clean,
-              reusable components and responsive layouts that feel ready for
-              real-world use.
+              I build modern web interfaces and SaaS-style dashboards using
+              React, Next.js, TypeScript and Tailwind CSS. My work focuses on
+              clean components, responsive layouts, authentication flows,
+              localization and real-world user experience.
             </p>
 
             {/* btn and socials */}

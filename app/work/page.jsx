@@ -22,27 +22,66 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "SaaS Dashboard / AI Workspace",
+    title: "NexusDesk",
+    description:
+      "A modern AI-powered SaaS workspace dashboard built with Next.js, TypeScript, Tailwind CSS, Supabase, Zustand, and Groq AI. It includes protected authentication, Arabic/English localization with RTL support, dashboard analytics, clients, projects, employees, tasks, calendar workflows, dark/light themes, and a responsive premium UI.",
+    stack: [
+      { name: "Next.js 16" },
+      { name: "React 19" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS v4" },
+      { name: "Supabase" },
+      { name: "Zustand" },
+      { name: "Groq AI" },
+      { name: "RTL Support" },
+      { name: "Responsive UI" },
+    ],
+    image: "/assets/work/thumb21.png",
+    live: "https://nexusdesk-psi.vercel.app",
+    github: "https://github.com/HAKIM166/nexusdesk",
+  },
+  {
+    num: "02",
     category: "Fullstack / Frontend + API",
     title: "Bzeyada Restaurant Platform",
     description:
       "A full online ordering platform built for a real restaurant client in Saudi Arabia. Includes dynamic menu management, customizable addons, cart system with unique logic, order creation, real-time tracking, user authentication with OTP, profile settings, and interactive map location selection — all powered by Next.js, MongoDB, and a custom API.",
     stack: [
-    { name: "Next.js 14" },
-    { name: "React" },
-    { name: "TailwindCSS" },
-    { name: "Framer Motion" },
-    { name: "MongoDB" },
-    { name: "Mongoose" },
-    { name: "Leaflet Maps" },
-    { name: "Context API" },
-    { name: "REST API" }
+      { name: "Next.js 14" },
+      { name: "React" },
+      { name: "TailwindCSS" },
+      { name: "Framer Motion" },
+      { name: "MongoDB" },
+      { name: "Mongoose" },
+      { name: "Leaflet Maps" },
+      { name: "Context API" },
+      { name: "REST API" },
     ],
     image: "/assets/work/thumb20.png",
     live: "https://bzeyada-restaurant-three.vercel.app/",
     github: null,
   },
   {
-    num: "02",
+    num: "03",
+    category: "QR Menu / Restaurant Web App",
+    title: "Bashamelo Menu",
+    description:
+      "A modern mobile-first QR restaurant menu built with Next.js and TypeScript. The project includes categorized menu browsing, responsive sections, quick customer actions, splash screen experience, and a clean UI designed for real restaurant usage on mobile devices.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Responsive UI" },
+      { name: "Mobile First" },
+      { name: "Restaurant Menu" },
+      { name: "Component Architecture" },
+    ],
+    image: "/assets/work/thumb22.png",
+    live: "https://bashamelo-menu.vercel.app/",
+    github: "https://github.com/HAKIM166/bashamelo-menu",
+  },
+  {
+    num: "04",
     category: "frontend",
     title: "E-commerce Front-End – Abaya & Thobe Store",
     description:
@@ -60,7 +99,7 @@ const projects = [
     github: "https://github.com/HAKIM166/e-commarce_website",
   },
   {
-    num: "03",
+    num: "05",
     category: "frontend",
     title: "Analytics Dashboard (React)",
     description:
@@ -75,8 +114,8 @@ const projects = [
     live: "https://hakim166.github.io/Dashboard/",
     github: "https://github.com/HAKIM166/Dashboard",
   },
-    {
-    num: "04",
+  {
+    num: "06",
     category: "frontend",
     title: "Mawaqeet Al-Muslim",
     description:
@@ -92,7 +131,6 @@ const projects = [
     live: "https://hakim166.github.io/Mawaqit/",
     github: "https://github.com/HAKIM166/Mawaqit",
   },
-  
 ];
 
 export default function Work() {

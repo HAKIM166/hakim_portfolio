@@ -80,6 +80,15 @@ export default function Photo() {
           CSS
         </motion.div>
 
+        {/* Supabase */}
+        <motion.div
+          className="absolute top-[34%] -left-10 rounded-full border border-[#3ECF8E] bg-black/80 px-3 py-1 text-xs text-[#3ECF8E] backdrop-blur-sm"
+          animate={{ x: [0, -4, 0], opacity: [0.75, 1, 0.75] }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        >
+          Supabase
+        </motion.div>
+
         {/* JavaScript */}
         <motion.div
           className="absolute bottom-8 right-6 rounded-full border border-[#F7DF1E] bg-[#F7DF1E] px-3 py-1 text-xs text-[#111827] backdrop-blur-sm"
@@ -87,6 +96,15 @@ export default function Photo() {
           transition={{ duration: 3.3, repeat: Infinity, ease: "easeInOut" }}
         >
           JavaScript
+        </motion.div>
+
+        {/* Zustand */}
+        <motion.div
+          className="absolute top-[62%] -right-10 rounded-full border border-[#B08968] bg-black/80 px-3 py-1 text-xs text-[#DDB892] backdrop-blur-sm"
+          animate={{ x: [0, 4, 0], opacity: [0.75, 1, 0.75] }}
+          transition={{ duration: 4.2, repeat: Infinity, ease: "easeInOut" }}
+        >
+          Zustand
         </motion.div>
 
         {/* Tailwind CSS */}
