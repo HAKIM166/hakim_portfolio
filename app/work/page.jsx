@@ -64,17 +64,20 @@ const projects = [
   },
   {
     num: "03",
-    category: "QR Menu / Restaurant Web App",
+    category: "Digital Restaurant Menu / Ordering Experience",
     title: "Bashamelo Menu",
     description:
-      "A modern mobile-first QR restaurant menu built with Next.js and TypeScript. The project includes categorized menu browsing, responsive sections, quick customer actions, splash screen experience, and a clean UI designed for real restaurant usage on mobile devices.",
+      "A modern digital restaurant menu and ordering experience built with Next.js, TypeScript, MUI, and Zustand. The project includes a complete cart and checkout flow, WhatsApp order integration with structured customer details, dynamic offers management, responsive mobile-first UI, SEO optimization, local order persistence, and a clean production-ready experience designed for real restaurant usage.",
     stack: [
-      { name: "Next.js" },
+      { name: "Next.js 16" },
       { name: "TypeScript" },
+      { name: "MUI" },
+      { name: "Zustand" },
       { name: "Responsive UI" },
+      { name: "WhatsApp Ordering" },
+      { name: "SEO Optimization" },
       { name: "Mobile First" },
-      { name: "Restaurant Menu" },
-      { name: "Component Architecture" },
+      { name: "Dynamic Offers" },
     ],
     image: "/assets/work/thumb22.png",
     live: "https://bashamelo-menu.vercel.app/",
@@ -82,7 +85,7 @@ const projects = [
   },
   {
     num: "04",
-    category: "frontend",
+    category: "E-commerce Frontend",
     title: "E-commerce Front-End – Abaya & Thobe Store",
     description:
       "A multi-page e-commerce front-end for a modern Abaya & Thobe store. The project includes a hero slider, product grid, offer section with countdown, and responsive layout optimized for mobile and desktop.",
@@ -100,7 +103,7 @@ const projects = [
   },
   {
     num: "05",
-    category: "frontend",
+    category: "Analytics Dashboard",
     title: "Analytics Dashboard (React)",
     description:
       "Single-page analytics dashboard built with React and React Router, featuring statistic cards, tables and navigation between sections.",
@@ -116,7 +119,7 @@ const projects = [
   },
   {
     num: "06",
-    category: "frontend",
+    category: "Islamic Web Application",
     title: "Mawaqeet Al-Muslim",
     description:
       "Prayer times web app inspired by Mawaqit, with Arabic UI, next prayer countdown and dynamic data loaded from an external API.",
