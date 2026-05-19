@@ -25,7 +25,7 @@ The layout includes:
 
 ## 🌐 Live Demo
 
-Live demo: https://hakim-portfolio-bice.vercel.app/resume
+Live demo: https://hakim-portfolio-bice.vercel.app/
 
 ---
 
