@@ -32,27 +32,27 @@ import {
 /* ABOUT DATA */
 const about = {
   title: "About me",
-  description: `I'm Ahmed Abd Ul Hakim Amir, a self-taught junior front-end developer from Assiut, Egypt.
+  description: `I'm Ahmed Abdel Hakim, a front-end developer from Assiut, Egypt, focused on building modern web interfaces, SaaS-style dashboards, and responsive digital products.
 
-Over the last ~1.5 years, I've focused on building real projects with React, Next.js, TypeScript and modern CSS. My recent work includes SaaS dashboards, restaurant web apps, authentication flows, responsive interfaces and localized Arabic/English UI.
+Over the last 2.5+ years, I've worked on real-world frontend projects using React, Next.js, TypeScript, Tailwind CSS, MUI, Zustand, Supabase, and modern UI architecture. My recent work includes AI-powered dashboards, restaurant ordering platforms, QR menu systems, authentication flows, responsive interfaces, SEO improvements, and localized Arabic/English UI with RTL support.
 
-I care about clean code, reusable components, realistic user experience and building interfaces that feel practical, organized and easy to use.`,
+I care about clean code, reusable components, realistic user experience, performance, and building interfaces that feel practical, organized, and production-ready.`,
   info: [
-    { fieldName: "Name", fieldValue: "Ahmed Abd Ul Hakim Amir" },
-    { fieldName: "Role", fieldValue: "Front-End Developer (Junior)" },
-    { fieldName: "Location", fieldValue: "Manfalut, Assiut, Egypt" },
+    { fieldName: "Name", fieldValue: "Ahmed Abdel Hakim" },
+    { fieldName: "Role", fieldValue: "Front-End Developer" },
+    { fieldName: "Location", fieldValue: "Assiut, Egypt" },
     {
       fieldName: "Experience",
-      fieldValue: "≈1.5 years (self-learning & projects)",
+      fieldValue: "2.5+ years building web interfaces",
     },
     { fieldName: "Email", fieldValue: "ahmed.hakem2@yahoo.com" },
     { fieldName: "Phone", fieldValue: "+20 109 251 0794" },
     { fieldName: "GitHub", fieldValue: "github.com/HAKIM166" },
     {
       fieldName: "LinkedIn",
-      fieldValue: "linkedin.com/in/ahmed-hakem-34b3b3350",
+      fieldValue: "https://www.linkedin.com/in/ahmed-abdel-hakim-34b3b3350/",
     },
-    { fieldName: "Languages", fieldValue: "Arabic (native), English (B1)" },
+    { fieldName: "Languages", fieldValue: "Arabic (Native), English (Good working proficiency)" },
   ],
 };
 

@@ -4,24 +4,24 @@ import CountUp from "react-countup";
 
 const stats = [
   {
-    num: 1.5,
+    num: 2.5,
     decimals: 1,
-    text: "Years of focused learning",
+    text: "Years building web interfaces",
+  },
+  {
+    num: 7,
+    decimals: 0,
+    text: "Portfolio projects completed",
+  },
+  {
+    num: 15,
+    decimals: 0,
+    text: "Frontend tools and skills",
   },
   {
     num: 5,
     decimals: 0,
-    text: "Major projects built",
-  },
-  {
-    num: 8,
-    decimals: 0,
-    text: "Core technologies used",
-  },
-  {
-    num: 3,
-    decimals: 0,
-    text: "API-driven projects",
+    text: "Real-world product systems",
   },
 ];
 
