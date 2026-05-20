@@ -80,7 +80,7 @@ const projects = [
       { name: "Dynamic Offers" },
     ],
     image: "/assets/work/thumb22.png",
-    live: "https://bashamelo-menu.vercel.app/",
+    live: "https://bashamelo.com",
     github: "https://github.com/HAKIM166/bashamelo-menu",
   },
   {
