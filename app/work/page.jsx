@@ -60,7 +60,7 @@ const projects = [
     ],
     image: "/assets/work/thumb20.png",
     live: "https://bzeyada-restaurant-three.vercel.app/",
-    github: null,
+    github: "https://github.com/HAKIM166/bzeyada-restaurant",
   },
   {
     num: "03",
