@@ -40,6 +40,7 @@ const projects = [
     image: "/assets/work/thumb21.png",
     live: "https://nexusdesk-psi.vercel.app",
     github: "https://github.com/HAKIM166/nexusdesk",
+    demoAccess: "demo@nexusdesk.app / Demo@123456",
   },
   {
     num: "02",
@@ -61,6 +62,7 @@ const projects = [
     image: "/assets/work/thumb20.png",
     live: "https://bzeyada-restaurant-three.vercel.app/",
     github: "https://github.com/HAKIM166/bzeyada-restaurant",
+    demoAccess: "",
   },
   {
     num: "03",
@@ -82,6 +84,7 @@ const projects = [
     image: "/assets/work/thumb22.png",
     live: "https://bashamelo.com",
     github: "https://github.com/HAKIM166/bashamelo-menu",
+    demoAccess: "",
   },
   {
     num: "04",
@@ -100,6 +103,7 @@ const projects = [
     image: "/assets/work/thumb4.png",
     live: "https://hakim166.github.io/e-commarce_website/",
     github: "https://github.com/HAKIM166/e-commarce_website",
+    demoAccess: "",
   },
   {
     num: "05",
@@ -116,6 +120,7 @@ const projects = [
     image: "/assets/work/thumb6.png",
     live: "https://hakim166.github.io/Dashboard/",
     github: "https://github.com/HAKIM166/Dashboard",
+    demoAccess: "",
   },
   {
     num: "06",
@@ -133,6 +138,7 @@ const projects = [
     image: "/assets/work/thumb1.png",
     live: "https://hakim166.github.io/Mawaqit/",
     github: "https://github.com/HAKIM166/Mawaqit",
+    demoAccess: "",
   },
 ];
 
@@ -254,6 +260,19 @@ export default function Work() {
                     </span>
                   ))}
                 </div>
+
+                {/* Demo access - only appears for projects that have demo credentials */}
+                {project.demoAccess && (
+                  <div className="w-full rounded-xl border border-sky-500/30 bg-sky-500/10 px-4 py-3">
+                    <p className="mb-1 text-[11px] font-medium uppercase tracking-[0.22em] text-sky-300">
+                      Dashboard Access
+                    </p>
+
+                    <p className="break-words font-mono text-xs leading-relaxed text-slate-100 md:text-sm">
+                      {project.demoAccess}
+                    </p>
+                  </div>
+                )}
 
                 {/* Divider */}
                 <div className="h-px w-full bg-slate-700/60" />
